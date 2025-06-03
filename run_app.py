@@ -80,8 +80,13 @@ def run_streamlit_app():
     """Run the Streamlit application"""
     logger.info("🚀 Starting Climate Action Intelligence Platform...")
     
-    # Change to the correct directory
-    app_path = "frontend/dashboard/main_app.py"
+    # Use enhanced app if available, fallback to main app
+    app_path = "frontend/dashboard/enhanced_app.py"
+    if not os.path.exists(app_path):
+        app_path = "frontend/dashboard/main_app.py"
+        logger.info("Using main application (enhanced app not found)")
+    else:
+        logger.info("Using enhanced application with heat maps and advanced features")
     
     if not os.path.exists(app_path):
         logger.error(f"❌ Application file not found: {app_path}")
