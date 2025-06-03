@@ -1,0 +1,30 @@
+# === CLIMATE TRACE ===
+CLIMATETRACE_API_BASE=https://api.climatetrace.org/v6
+CLIMATETRACE_DOCS_URL=https://api.climatetrace.org/v6/swagger/index.html
+
+# === CARBON INTERFACE ===
+CARBON_INTERFACE_API_KEY=ShPi2tb4XAMuLVO6c5RMDg
+CARBON_INTERFACE_API_BASE=https://www.carboninterface.com/api/v1
+
+# === NASA POWER (Prediction Of Worldwide Energy Resources) ===
+NASA_API_KEY=aD45yiM5C8uJErMjBWgK3LTGBufejUQ9andcvdMr
+NASA_API_BASE=https://power.larc.nasa.gov/api/temporal
+
+# === OPENWEATHERMAP ===
+OPENWEATHER_API_KEY=5e172a22e5e4412a98dc331708df15ba
+OPENWEATHER_API_BASE=https://api.openweathermap.org/data/2.5
+
+# === UNITED NATIONS SDG API ===
+UN_SDG_API_BASE=https://unstats.un.org/SDGAPI/v1
+UN_SDG_SWAGGER_URL=https://unstats.un.org/SDGAPI/swagger/
+
+# === WORLD BANK API ===
+WORLD_BANK_API_BASE=https://api.worldbank.org/v2
+IBM_CLOUD_API_KEY=Ivr39mwpyx01jouhzx1KNs6r7c0Lu7Y3PR1gvkAiBCBz
+WATSONX_PROJECT_ID=14d0f9e6-4db0-4e3c-a9f5-41ad4f050fae
+IBM_CLOUD_URL=https://us-south.ml.cloud.ibm.com
+WATSONX_API_KEY=DEpIQ-eBB6HNdayC-T82ejY2FPbP2arw1jlk0ubv89Cs
+
+# === DEFAULT OUTPUT FORMAT FOR APIs THAT SUPPORT IT ===
+DEFAULT_OUTPUT_FORMAT=json
+
